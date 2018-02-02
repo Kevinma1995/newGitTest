@@ -1,0 +1,44 @@
+Version Control Sytem
+
+* git 
+
+keep track of code history
+can revert back
+
+====== basic commands =======
+$ git init  
+-- initialize local git repository (create a .git file in that directory)
+
+$ git add<file> 
+-- add file to index. put file in staging area before commit
+ git add *.html 
+ -- add any html file to staging area
+
+$ git status
+-- check status of working tree
+
+$ git commit
+-- commit changes in index
+
+--------- related to remote repository ----------
+$ git push 
+-- push to remote repository
+
+$ git pull
+-- pull lastest from remote repository
+
+$ git clone
+-- clone repository into a new directoryc
+
+$ git rm --cached <file>
+--remove file from staging area
+
+.gitignore 
+-- add file that dont need to be keep track of
+
+$ git branch <branch name>
+$ git checkout <branch name>
+$ git merge <branch name>
+
+
+
